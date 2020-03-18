@@ -6,7 +6,39 @@
   height: 40vmin;
   pointer-events: none;
 }
+.overlay {
+  position: fixed;/* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 99999; /* Specify a stack order in case you're using a different order for other elements */
+}
 
+.centercontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemaligncenter{
+  display: flex;
+  align-items: center;
+}
+.justcontentcenter{
+  display: flex;
+  justify-content: center;
+}
+.justcontentleft{
+  display: flex;
+  justify-content: flex-start;
+}
+.justcontentright{
+  display: flex;
+  justify-content: flex-end;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

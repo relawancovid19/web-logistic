@@ -14,7 +14,7 @@ class daftarProsespengajuan extends Component {
     return (
       <Card style={{ width: "100%" }}>
         <CardHeader>
-          <h1>daftar pengiriman</h1>
+          <h1>Daftar pengiriman</h1>
         </CardHeader>
         <CardBody style={{padding:"0px",minHeight:"50vh",overflowX:"hidden",overflowY:"scroll"}}>
           <ListGroup>
